@@ -1,0 +1,10 @@
+from tkinter import*
+root=Tk()
+img=PhotoImage(file='starbus.png')
+Label(root,image=img).place(x=500)
+Label(root,text='Online Bus Booking System',bg='light blue',fg='red',font='Arial 50').place(x=300,y=250)
+Button(root,text='Seat Booking',bg='green').place(x=500,y=400)
+Button(root,text='Check Booked Seat',bg='green').place(x=700,y=400)
+Button(root,text='Add Bus Details',bg='green').place(x=900,y=400)
+Label(root,text='For Admin Only').place(x=900,y=500)
+root.mainloop()
